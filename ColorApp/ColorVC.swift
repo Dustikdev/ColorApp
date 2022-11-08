@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorVC.swift
 //  ColorApp
 //
 //  Created by Никита Швец on 08.11.2022.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ColorVC: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
-
-
 }
-
