@@ -9,9 +9,13 @@ import UIKit
 
 class ColorVC: UIViewController {
     
+    var cellColor: UIColor?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if let cellColor = cellColor {
+            view.backgroundColor = cellColor
+        }
         
     }
 }
